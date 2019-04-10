@@ -46,9 +46,7 @@ app.use(require('./routes'));//pega o arquivo de rotas
 
 
 let port = 3002;
-server.listen(process.env.PORT || port , ()=> {
-    console.log(`rodando na porta ${port}`)
-})
+server.listen(process.env.PORT || port )
 
 
 //install lib socket.io
