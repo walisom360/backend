@@ -45,7 +45,7 @@ app.use(require('./routes'));//pega o arquivo de rotas
 
 
 
-let port = 3002;
+let port = 1234;
 server.listen(process.env.PORT || port )
 
 
